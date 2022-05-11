@@ -31,7 +31,6 @@ Program to implement the multi class classifier.
 Developed by: Gowri M
 RegisterNumber: 212220230019
 */
-
 from numpy import where
 from collections import Counter
 from sklearn.datasets import make_blobs
