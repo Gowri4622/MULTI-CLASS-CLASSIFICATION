@@ -25,14 +25,13 @@ The number of classifier models depends on the classification technique we are a
 5.plot the dataset and color the by class label
 
 ## Program:
-```
+```python
 /*
 Program to implement the multi class classifier.
 Developed by: Gowri M
 RegisterNumber: 212220230019
 */
-```
-```python
+
 from numpy import where
 from collections import Counter
 from sklearn.datasets import make_blobs
@@ -49,7 +48,6 @@ for label, _ in counter.items():
     pyplot.scatter(X[row_ix,0], X[row_ix,1], label=str(label))
 pyplot.legend()
 pyplot.show()
-
 ```
 
 ## Output:
